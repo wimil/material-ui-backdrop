@@ -1,0 +1,56 @@
+{
+  "name": "material-ui-backdrop",
+  "version": "1.0.0",
+  "description": "Higher order component for straightforward use of @material-ui/core backdrop",
+  "keywords": [
+    "Material UI",
+    "backdrop",
+    "loading"
+  ],
+  "author": "wimil",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wimil/material-ui-backdrop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wimil/material-ui-backdrop/issues"
+  },
+  "homepage": "https://github.com/wimil/material-ui-backdrop",
+  "main": "dist/material-ui-backdrop.cjs.js",
+  "module": "dist/material-ui-backdrop.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "postversion": "git push && git push --tags",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@mui/material": "^5.0.1",
+    "@testing-library/react": "^12.1.0",
+    "babel-loader": "^8.2.2",
+    "coveralls": "^3.1.1",
+    "jest": "^27.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.57.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-copy": "^3.4.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "@mui/material": ">= 5.0.0"
+  }
+}
