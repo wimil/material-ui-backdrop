@@ -1,6 +1,6 @@
 {
   "name": "material-ui-backdrop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Higher order component for straightforward use of @material-ui/core backdrop",
   "keywords": [
     "Material UI",
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/wimil/material-ui-backdrop",
   "main": "dist/material-ui-backdrop.cjs.js",
   "module": "dist/material-ui-backdrop.esm.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
